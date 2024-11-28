@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Course Registration System</h1>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="courses">Select Courses:</label>
+                <select id="courses" name="courses" multiple required>
+                    <option value="course1">Course 1: Web Development</option>
+                    <option value="course2">Course 2: Data Science</option>
+                    <option value="course3">Course 3: Graphic Design</option>
+                    <option value="course4">Course 4: Digital Marketing</option>
+                </select>
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
