@@ -1,0 +1,103 @@
+/* Full background for the page */
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://asset.gecdesigns.com/img/wallpapers/aesthetic-purple-orange-beautiful-nature-desktop-wallpaper-sr10012413-1706503295947-cover.webp') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+
+/* Container for the registration form */
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    color: #333;
+}
+
+/* Header style */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input and select fields styling */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Error state for inputs and selects */
+input.error, select.error {
+    border-color: #ff4d4d;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Result display box styling */
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e8f4e8;
+    color: #4CAF50;
+    display: none;
+}
+
+/* Error message styling */
+.error-message {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
